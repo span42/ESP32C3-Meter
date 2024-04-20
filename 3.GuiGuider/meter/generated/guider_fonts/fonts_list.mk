@@ -1,0 +1,1 @@
+GEN_CSRCS += lv_font_CnBold_20.c lv_font_CnBold_16.c lv_font_CnBold_50.c lv_font_freefont_16.c lv_font_freefont_24.c lv_font_arial_16.c lv_font_freefont_44.c lv_font_freefont_36.c lv_font_freefont_26.c lv_font_CnBold_24.c lv_font_freefont_20.c lv_font_CnBold_18.c lv_font_freefont_18.c lv_font_freefont_12.c lv_font_arial_12.c
