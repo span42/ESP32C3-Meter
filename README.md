@@ -5,17 +5,17 @@
 
 #### 方案
 
-（1）输入电压：5~30V
-（2）输入电流：8A
-（3）板子四层，阻容器件全部 >= 0603，方便人肉贴片
-（4）1.14寸分辨率135*240  ST7789 IPS彩屏
-（5）电压测量精度：±0.01V
-（6）电流测量精度：±0.01A
-（7）type-c接口，方便调试下载，同时也预留了UART下载口
-（8）lvgl界面
-（9）wifi联网
-（10）双按键
-（11）web server
+    （1）输入电压：5~30V
+    （2）输入电流：8A
+    （3）板子四层，阻容器件全部 >= 0603，方便人肉贴片
+    （4）1.14寸分辨率135*240  ST7789 IPS彩屏
+    （5）电压测量精度：±0.01V
+    （6）电流测量精度：±0.01A
+    （7）type-c接口，方便调试下载，同时也预留了UART下载口
+    （8）lvgl界面
+    （9）wifi联网
+    （10）双按键
+    （11）web server
 
 
 #### 开发环境
@@ -25,24 +25,24 @@
 
 #### 依赖库
 
-|-- lvgl @ 8.4.0
-|-- EEPROM @ 2.0.0
-|-- WiFi @ 2.0.0
-|-- LittleFS @ 2.0.0
-|-- WebServer @ 2.0.0
-|-- PubSubClient @ 2.8.0
-|-- ArduinoJson @ 7.0.4
-|-- HTTPClient @ 2.0.0
-|-- OneButton @ 2.5.0
-|-- TFT_eSPI @ 2.5.43
-|-- INA226 @ 0.5.2
-|-- Wire @ 2.0.0
+    |-- lvgl @ 8.4.0
+    |-- EEPROM @ 2.0.0
+    |-- WiFi @ 2.0.0
+    |-- LittleFS @ 2.0.0
+    |-- WebServer @ 2.0.0
+    |-- PubSubClient @ 2.8.0
+    |-- ArduinoJson @ 7.0.4
+    |-- HTTPClient @ 2.0.0
+    |-- OneButton @ 2.5.0
+    |-- TFT_eSPI @ 2.5.43
+    |-- INA226 @ 0.5.2
+    |-- Wire @ 2.0.0
 
 #### 资源占用
 
-RAM:   [===       ]  31.1% (used 101844 bytes from 327680 bytes)
-Flash: [=======   ]  72.6% (used 1713410 bytes from 2359296 bytes)
-Building .pio\build\esp32-c3-devkitm-1\firmware.bin
+    RAM:   [===       ]  31.1% (used 101844 bytes from 327680 bytes)
+    Flash: [=======   ]  72.6% (used 1713410 bytes from 2359296 bytes)
+    Building .pio\build\esp32-c3-devkitm-1\firmware.bin
 
 #### 功能即特点：
     ESP32C3主频160MHz，RAM 300KB，Flash 4MB，支持wifi及蓝牙
